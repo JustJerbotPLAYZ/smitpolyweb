@@ -1,0 +1,92 @@
+
+
+.gridRight {
+    margin-top: 6.7rem;
+    float: left;
+    text-align: right;
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+}
+
+.gridLeft {
+    float: left;
+    text-align: right;
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+}
+
+
+.rightItems {
+    font-weight: 500;
+    margin-right: 5rem;
+}
+
+.leftItems {
+    margin-right: 5rem;
+    font-weight: 500;
+}
+
+.rightItems input {
+    margin-left: 1rem;
+    width: 12rem;
+    height: 1.4rem;
+    border: solid 0.1rem lightgray;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.leftItems input {
+    margin-left: 1rem;
+    width: 12rem;
+    height: 1.4rem;
+    border: solid 0.1rem lightgray;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.customerHeader {
+    display: inline-block;
+    margin-right: 3.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 10rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+}
+
+.addressHeader {
+    margin-right: 5rem;
+}
+
+.reminderHeader {
+    margin-right: 3rem;
+}
+
+
+.containerPosition {
+    margin-top: 3.2rem;
+}
+
+.buttonsContainer {
+ 
+}
+
+.articleForm {
+    margin-top: 1rem;
+}
+
+.subcontainer {
+    margin-top: 2rem;
+}
+
+.subcontainerReminder{
+    margin-top:1rem;
+}
+
+.buttonContainer{
+    float:right;
+    margin-right:1rem;
+    margin-top:3rem;
+}

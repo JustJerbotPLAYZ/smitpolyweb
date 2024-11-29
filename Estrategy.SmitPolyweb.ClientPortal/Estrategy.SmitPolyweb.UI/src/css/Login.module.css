@@ -1,0 +1,119 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.logincontainer {
+    display: flex;
+    width: 25rem !important;
+    min-height: 19rem !important;
+    height: min-content;
+    margin: 0 !important;
+    padding: 0.25rem 0;
+}
+
+.background {
+    background-image: url("../assets/inlogimage.jpg");
+    background-repeat: repeat-x;
+    background-position-x: -14rem;
+    background-color: #ffffff;
+}
+
+.logintitle {
+    color: #0e1d60 !important;
+    /* font-family: 'Franklin Gothic'; */
+    font-weight: 900 !important;
+    font-size: 1.6rem !important;
+    margin: 0 !important;
+    padding-top: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+.loginfield {
+    height: 1.3rem;
+    width: 18rem !important;
+}
+
+.wronglogin {
+    border: 0.1rem solid rgba(114, 28, 36, 70%) !important;
+    border-radius: 0.2rem;
+    background-color: rgb(245, 198, 203) !important;
+}
+
+input:-webkit-autofill.wronglogin {
+    background-color: rgb(245, 198, 203) !important;
+    box-shadow: 0 0 0px 1000px rgb(245, 198, 203) inset !important;
+}
+
+.loginlabel {
+    color: #0e1d60;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+@media(max-width: 576px) {
+    .loginlabel {
+        font-size: 0.9rem;
+    }
+}
+
+.loginbtnhelper {
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.passwordreset {
+    color: #0e1d60;
+    font-size: 0.8rem;
+}
+
+.modal {
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.modalContentContainer {
+    margin: 1rem;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    margin-left:4rem;
+    
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.inputField{
+    width:18rem;
+    height:1.8rem;
+}
+
+.logintitle2 {
+    color: #0e1d60 !important;
+    /* font-family: 'Franklin Gothic'; */
+    font-weight: 900 !important;
+    font-size: 1.6rem !important;
+    margin: 0 !important;
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+    
+}

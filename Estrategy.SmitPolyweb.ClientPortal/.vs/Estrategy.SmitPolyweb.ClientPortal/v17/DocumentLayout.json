@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|d:\\projects\\smitpolyweb\\trunk\\estrategy.smitpolyweb.clientportal\\estrategy.smitpolyweb.ui\\src\\pages\\certificate\\createcertificate.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|solutionrelative:estrategy.smitpolyweb.ui\\src\\pages\\certificate\\createcertificate.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|d:\\projects\\smitpolyweb\\trunk\\estrategy.smitpolyweb.clientportal\\estrategy.smitpolyweb.ui\\src\\pages\\certificate\\editcertificate.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|solutionrelative:estrategy.smitpolyweb.ui\\src\\pages\\certificate\\editcertificate.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|d:\\projects\\smitpolyweb\\trunk\\estrategy.smitpolyweb.clientportal\\estrategy.smitpolyweb.ui\\src\\dto\\certificatedto.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|solutionrelative:estrategy.smitpolyweb.ui\\src\\dto\\certificatedto.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF982066-A962-4DD7-AA77-F08E4BD87875}|Estrategy.SmitPolyweb.ClientPortal.API\\Estrategy.SmitPolyweb.ClientPortal.API.csproj|d:\\projects\\smitpolyweb\\trunk\\estrategy.smitpolyweb.clientportal\\estrategy.smitpolyweb.clientportal.api\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF982066-A962-4DD7-AA77-F08E4BD87875}|Estrategy.SmitPolyweb.ClientPortal.API\\Estrategy.SmitPolyweb.ClientPortal.API.csproj|solutionrelative:estrategy.smitpolyweb.clientportal.api\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|d:\\projects\\smitpolyweb\\trunk\\estrategy.smitpolyweb.clientportal\\estrategy.smitpolyweb.ui\\src\\dto\\propertydto.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}|Estrategy.SmitPolyweb.UI\\estrategy.smitpolyweb.ui.esproj|solutionrelative:estrategy.smitpolyweb.ui\\src\\dto\\propertydto.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1387,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "react-dom.development.js",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.UI\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "ViewState": "AgIAALIQAAAAAAAAAAAUwNcQAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-28T15:58:55.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyDto.tsx",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\dto\\PropertyDto.tsx",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.UI\\src\\dto\\PropertyDto.tsx",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\dto\\PropertyDto.tsx",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.UI\\src\\dto\\PropertyDto.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-28T07:53:30.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateCertificate.tsx",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\CreateCertificate.tsx",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\CreateCertificate.tsx",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\CreateCertificate.tsx",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\CreateCertificate.tsx",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAcwMQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-28T07:48:57.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CertificateController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.ClientPortal.API\\Controllers\\CertificateController.cs",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.ClientPortal.API\\Controllers\\CertificateController.cs",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.ClientPortal.API\\Controllers\\CertificateController.cs",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.ClientPortal.API\\Controllers\\CertificateController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwMAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:51:10.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CertificateDto.tsx",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\dto\\CertificateDto.tsx",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.UI\\src\\dto\\CertificateDto.tsx",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\dto\\CertificateDto.tsx",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.UI\\src\\dto\\CertificateDto.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-27T14:11:52.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditCertificate.tsx",
+              "DocumentMoniker": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\EditCertificate.tsx",
+              "RelativeDocumentMoniker": "Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\EditCertificate.tsx",
+              "ToolTip": "D:\\Projects\\SmitPolyweb\\trunk\\Estrategy.SmitPolyweb.ClientPortal\\Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\EditCertificate.tsx",
+              "RelativeToolTip": "Estrategy.SmitPolyweb.UI\\src\\pages\\certificate\\EditCertificate.tsx",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAQwKIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-27T13:30:01.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

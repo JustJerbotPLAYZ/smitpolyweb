@@ -1,0 +1,66 @@
+.supplierDataContainer {
+    width: 400px;
+    margin: 1rem;
+}
+
+
+/* all the classes for properties*/
+
+.detailStyle {
+    border: solid 0.1rem lightgray;
+    border-radius: 0.2rem;
+    width: 31rem;
+    height:fit-content;
+    text-align: center;
+    padding:1rem;
+}
+
+.inputStyle {
+    height: 1.85rem;
+    width: 18rem;
+    float: right;
+    
+}
+
+.labelStyle {
+    height: 1.8rem;
+
+}
+
+.dropdownStyles {
+    width: 18rem;
+    height: 1.9rem;
+    float: right;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    align-items: center;
+    border: solid 1px grey;
+    border-radius: 1px;
+}
+
+.choiseContainer {
+    margin-top:1.5rem;
+    margin-right:2rem;
+    color:black;
+}
+
+.propertyContainer{
+}
+
+/* All the classes for the button positioning */
+.copyButtonPos {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.copyButtonContainer {
+    text-align: end;
+}
+
+.buttonContainer{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left:8.4rem;
+}
+

@@ -1,0 +1,10 @@
+.linkStyle {
+    margin-top: 20px;
+}
+.current {
+    color: darkblue !important;
+}
+.link {
+    color: rgba(10, 10, 10, 70%);
+    margin: 0.5rem 0;
+}

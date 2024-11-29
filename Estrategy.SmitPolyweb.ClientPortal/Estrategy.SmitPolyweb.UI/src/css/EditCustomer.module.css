@@ -1,0 +1,52 @@
+.buttonprimary {
+    border-color: darkblue !important;
+    color: white;
+    background-color: #004a99;
+}
+
+.buttonsecondary {
+    border-color: darkblue !important;
+    color: darkblue;
+    background-color: white;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.1rem;
+    text-align: center;
+    display: inline-block;
+    width: 11rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: solid 0.1rem transparent;
+    font-size: 0.9rem;
+}
+
+.missingInput {
+    border: 2px solid #E53935;
+}
+
+.buttonPositions {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buttonPos{
+    margin-top:2.5rem;
+    margin-right:3rem;
+}
+
+.buttonPos2{
+    margin-top:2.5rem;
+    margin-right:1rem;
+}
+.subcontainer {
+    margin-top: 1rem;
+}
+
+.userTable{
+    width:30rem;
+}

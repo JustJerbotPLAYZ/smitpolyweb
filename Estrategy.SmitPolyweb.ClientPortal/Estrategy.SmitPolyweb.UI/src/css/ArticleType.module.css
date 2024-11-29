@@ -1,0 +1,12 @@
+.articleTypeTable tr:nth-child(even) {
+    background-color: #f8f4f4;
+}
+.articleTypeTable {
+    color: #333333;
+    font-weight: 500;
+}
+
+.addButtonPosition {
+    padding-top: 0.4rem;
+    float: right;
+}

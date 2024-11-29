@@ -1,0 +1,19 @@
+.errorStyle{
+    font-weight:600;
+    font-size:4.5rem;
+}
+
+.notFoundMsg {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.redirectMsg {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.textPosition{
+    margin-top:10rem;
+    text-align:center;
+}

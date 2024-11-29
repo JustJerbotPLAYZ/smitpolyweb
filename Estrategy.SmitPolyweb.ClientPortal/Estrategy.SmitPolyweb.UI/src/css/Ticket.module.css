@@ -1,0 +1,17 @@
+.ticketTable td {
+    max-width: 10rem;
+}
+
+.alignButtons {
+    margin-left:23rem;
+    gap: 15px;
+    margin-top: 0.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+

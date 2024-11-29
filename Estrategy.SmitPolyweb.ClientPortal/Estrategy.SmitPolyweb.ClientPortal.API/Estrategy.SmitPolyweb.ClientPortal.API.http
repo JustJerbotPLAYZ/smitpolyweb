@@ -1,0 +1,6 @@
+@Estrategy.SmitPolyweb.ClientPortal.API_HostAddress = http://localhost:5077
+
+GET {{Estrategy.SmitPolyweb.ClientPortal.API_HostAddress}}/estrategysmitpolyweb/
+Accept: application/json
+
+###

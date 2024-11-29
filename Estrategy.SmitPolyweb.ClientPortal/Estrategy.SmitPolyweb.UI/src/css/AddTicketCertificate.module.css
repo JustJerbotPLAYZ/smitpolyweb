@@ -1,0 +1,25 @@
+.certificateTable td {
+    max-width: 5rem;
+}
+.certificateTable th {
+    border-bottom: solid 2px orange;
+}
+
+.certificateTable tr:nth-child(even) {
+    background-color: #f8f4f4;
+}
+
+.current {
+    color: darkblue !important;
+}
+
+.link {
+    color: rgba(10, 10, 10, 70%);
+    margin: 0.5rem 0;
+}
+
+.buttonContainer{
+    margin-top:1.5rem;
+    display:flex;
+    gap:0.5rem;
+}

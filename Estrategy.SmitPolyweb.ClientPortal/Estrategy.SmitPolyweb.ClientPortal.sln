@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrategy.SmitPolyweb.ClientPortal.API", "Estrategy.SmitPolyweb.ClientPortal.API\Estrategy.SmitPolyweb.ClientPortal.API.csproj", "{EF982066-A962-4DD7-AA77-F08E4BD87875}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "estrategy.smitpolyweb.ui", "Estrategy.SmitPolyweb.UI\estrategy.smitpolyweb.ui.esproj", "{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF982066-A962-4DD7-AA77-F08E4BD87875} = {EF982066-A962-4DD7-AA77-F08E4BD87875}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF982066-A962-4DD7-AA77-F08E4BD87875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF982066-A962-4DD7-AA77-F08E4BD87875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF982066-A962-4DD7-AA77-F08E4BD87875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF982066-A962-4DD7-AA77-F08E4BD87875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+				{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8990C71F-C5FE-4DFD-B493-3D3B01C3F489}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9554FA85-BCA7-41CC-AD9B-27929326676F}
+	EndGlobalSection
+EndGlobal

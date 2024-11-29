@@ -1,0 +1,19 @@
+.saveButton {
+
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.1rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    border: solid 0.1rem #68729C;
+    border-color: darkblue;
+    font-size: 0.9rem;
+    color: white;
+    width: 11rem;
+    height: 2rem;
+    background-color: #004A99;
+    text-transform: uppercase;
+}

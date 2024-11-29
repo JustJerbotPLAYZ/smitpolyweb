@@ -1,0 +1,102 @@
+/* Container that spans the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    font-family: Open Sans !important;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    height: 4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    width: 10rem;
+    margin-left: 5rem;
+    float: left;
+}
+
+.navbarRight {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navitem {
+    margin: 0.4rem;
+    float: right;
+}
+
+.email {
+    margin: 0;
+    font-weight: 700;
+}
+
+
+/* Sidebar styling */
+.sidebar {
+    width: 3rem;
+    height: calc(100vh - 4rem); /* Subtracts the navbar height */
+    position: absolute;
+    top: 4rem; /* Starts just below the navbar */
+    left: 0;
+}
+
+.sideBarRoot {
+    position: absolute;
+    width: auto;
+    top: calc(11vh - 2.2rem);
+    background-color: #0e1d60;
+}
+
+.sidebar2 {
+    width: 3rem;
+    min-height: calc(100vh - 4rem);
+    background-color: #004a99;
+    cursor: pointer;
+}
+
+.extendedSidebar {
+    height: calc(100vh - 4rem); /* Matches the main sidebar height */
+    position: fixed;
+    top: 3rem; /* Aligns with the navbar height */
+    background-color: #0e1d60;
+}
+
+.sidebar2 .icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 0.5rem;
+}
+
+/* Content area */
+.content {
+    margin-left: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: unset;
+    width: 92%;
+    flex: 1;
+    display: flex;
+}
+
+.contentWrapper {
+    width: 97%;
+    height: calc(100vh - 7rem);
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+}

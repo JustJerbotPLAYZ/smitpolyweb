@@ -1,0 +1,27 @@
+.buttonWrapper {
+    padding-top: 0.4rem;
+    float: right;
+}
+
+.radioButtonsWrapper {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 500px;
+    align-items: center;
+    gap: 10px; /* Space between the two checkbox sections */
+    padding-left: calc(1 * 10px); /* Adjust left padding to match other labels */
+}
+
+    .radioButtonsWrapper p {
+        display: flex;
+        align-items: center;
+        gap: 5px; /* Space between checkbox and label */
+        margin: 0;
+    }
+
+    .radioButtonsWrapper input[type="radio"] {
+        width: 18px;
+        height: 18px;
+        accent-color: #007bff; /* Checkbox color */
+        cursor: pointer;
+    }

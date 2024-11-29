@@ -1,0 +1,27 @@
+.badge {
+    height: 0.8rem;
+    aspect-ratio: 1/1;
+    margin: auto 0.1rem auto 0;
+    border-radius: 0.2rem;
+    margin-right: 0.15rem;
+}
+
+.redbadge {
+    background-color: red;
+}
+
+.orangebadge {
+    background-color: orange;
+}
+
+.greenbadge {
+    background-color: green;
+}
+
+.blackbadge {
+    background-color: black;
+}
+
+.graybadge {
+    background-color: gray;
+}

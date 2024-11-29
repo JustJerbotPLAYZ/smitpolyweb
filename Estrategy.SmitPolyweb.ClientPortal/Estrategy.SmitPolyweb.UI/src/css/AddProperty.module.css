@@ -1,0 +1,60 @@
+
+
+.containerPosition {
+    margin-top: 3.2rem;
+}
+
+.labelChoise{
+    font-weight:700;
+}
+
+.inputChoise {
+    margin-left: 12.5rem;
+    width:15.5rem;
+    padding: 5px;
+}
+
+.propertyContent{
+    margin-top:1rem;
+}
+
+.deleteButton {
+    margin-left: 0.5rem;
+    border-radius: 0.25rem;
+    padding: 0.1rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    border: solid 0.1rem #68729c;
+    border-color: darkblue;
+    font-size: 0.9rem;
+    color: darkblue;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.addInputButton {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 20.2rem;
+    border-radius: 0.25rem;
+    padding: 0.1rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    border: solid 0.1rem #68729c;
+    border-color: darkblue;
+    font-size: 0.9rem;
+    color: white;
+    width: 11rem;
+    height: 2rem;
+    background-color: #004a99;
+    text-transform: uppercase;
+}
+
+.buttonsContainer {
+    margin-top: 1rem;
+    margin-right:1.8rem;
+}

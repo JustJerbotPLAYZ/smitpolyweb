@@ -1,0 +1,43 @@
+.btnhelper {
+    margin-top: 0.6rem;
+}
+
+.badge {
+    height: 0.8rem;
+    aspect-ratio: 1/1;
+    margin: auto 0.1rem auto 0;
+    border-radius: 0.2rem;
+}
+
+.redbadge {
+    background-color: red;
+}
+
+.orangebadge {
+    background-color: orange;
+}
+
+.greenbadge {
+    background-color: green;
+}
+
+.blackbadge {
+    background-color: black;
+}
+
+.graybadge {
+    background-color: gray;
+}
+
+.holdtogether {
+    display: inline-flex;
+}
+
+.reminderTable td {
+    max-width: 3rem;
+}
+
+.actiondropdown {
+    height: 1.5rem;
+    padding: 0.2rem;
+}

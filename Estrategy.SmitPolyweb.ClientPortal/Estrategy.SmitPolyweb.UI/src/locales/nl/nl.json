@@ -1,0 +1,609 @@
+{
+  "userFeedback": {
+    "errors": {
+      "missingRequiredFieldsHeader": "Ontbrekende gegevens",
+      "missingRequiredFields": "Niet alle verplichte gegevens zijn ingevuld",
+      "passwordError": "Fout wachtwoord",
+      "passwordMismatch": "Wachtwoorden komen niet overeen",
+      "wrongPasswordFormat": "Het wachtwoord voldoet niet aan de eisen",
+      "accountBlockedHeader": "Account geblokeerd",
+      "accountBlocked": "Dit account is geblokeerd, neem contact op met een beheerder"
+    },
+    "success": {
+      "articles": {
+        "articleCreatedHeader": "Artikel aanmaken gelukt",
+        "articleCreated": "Het artikel '{{articleName}}' is succesvol aangemaakt",
+        "articleEditedHeader": "Artikel aanpassen gelukt",
+        "articleEdited": "Het artikel '{{articleName}}' is succesvol aangepast",
+        "articleDeletedHeader": "Artikel verwijderen gelukt",
+        "articleDeleted": "Het artikel '{{articleName}}' is succesvol verwijderd"
+      },
+      "articleTypes": {
+        "articleTypeCreatedHeader": "Artikel type aanmaken gelukt",
+        "articleTypeCreated": "Het artikel type '{{articleTypeName}}' is succesvol aangemaakt",
+        "articleTypeEditedHeader": "Artikel type aanpassen gelukt",
+        "articleTypeEdited": "Het artikel type '{{articleTypeName}}' is succesvol aangepast",
+        "articleTypeDeletedHeader": "Artikel type verwijderen gelukt",
+        "articleTypeDeleted": "Het artikel type '{{articleTypeName}}' is succesvol verwijderd"
+      },
+      "certificates": {
+        "certificateCreatedHeader": "Certificaat aanmaken gelukt",
+        "certificateCreated": "Het certificaat '{{registrationNumber}}' is succesvol aangemaakt",
+        "certificateEditedHeader": "Certificaat aanpassen gelukt",
+        "certificateEdited": "Het certificaat '{{registrationNumber}}' is succesvol aangepast",
+        "certificateDeletedHeader": "Certificaat verwijderen gelukt",
+        "certificateDeleted": "Het certificaat '{{registrationNumber}}' is succesvol verwijderd"
+      },
+      "customers": {
+        "customerCreatedHeader": "Klant aanmaken gelukt",
+        "customerCreated": "De klant '{{customerName}}' is succesvol aangemaakt",
+        "customerEditedHeader": "Klant aanpassen gelukt",
+        "customerEdited": "De klant '{{customerName}}' is succesvol aangepast",
+        "customerDeletedHeader": "Klant verwijderen gelukt",
+        "customerDeleted": "De klant '{{customerName}}' is succesvol verwijderd"
+      },
+      "properties": {
+        "propertyCreatedHeader": "Eigenschap aanmaken gelukt",
+        "propertyCreated": "De eigenschap '{{name}}' is succesvol aangemaakt",
+        "propertyEditedHeader": "Eigenschap aanpassen gelukt",
+        "propertyEdited": "De eigenschap '{{name}}' is succesvol aangepast",
+        "propertyDeletedHeader": "Eigenschap verwijderen gelukt",
+        "propertyDeleted": "De eigenschap '{{name}}' is succesvol verwijderd"
+      },
+      "tickets": {
+        "ticketCreatedHeader": "Werkbon aanmaken gelukt",
+        "ticketCreated": "De werkbon '{{ticketNumber}}' is succesvol aangemaakt",
+        "ticketEditedHeader": "Werkbon aanpassen gelukt",
+        "ticketEdited": "De werkbon '{{ticketNumber}}' is succesvol aangepast",
+        "ticketDeletedHeader": "Werkbon verwijderen gelukt",
+        "ticketDeleted": "De werkbon '{{ticketNumber}}' is succesvol verwijderd"
+      },
+      "users": {
+        "userCreatedHeader": "Gebruiker aanmaken gelukt",
+        "userCreated": "De gebruiker '{{userFullName}}' is succesvol aangemaakt",
+        "userEditedHeader": "Gebruiker aanpassen gelukt",
+        "userEdited": "De gebruiker '{{userFullName}}' is succesvol aangepast",
+        "userDeletedHeader": "Gebruiker verwijderen gelukt",
+        "userDeleted": "De gebruiker '{{userFullName}}' is succesvol verwijderd"
+      }
+    }
+  },
+
+  "errors": {
+    "notImplemented": "Deze functie is nog niet beschikbaar",
+    "notFound": "Niet gevonden",
+    "notFoundMsg": "Controleer of de gegevens correct zijn",
+    "invalidData": "Incorrecte gegevens",
+    "invalidDataMsg": "Controleer de ingevulde gegevens",
+    "somethingWrong": "Er is iets mis gegaan",
+    "somethingWrongMsg": "Er is een probleem opgetreden",
+    "unknownException": "Er is een onbekende fout opgetreden",
+    "unknownExceptionMsg": "Neem contact op met de support",
+    "duplicateEntry": "Al bestaande waarde",
+    "duplicateEntryMsg": "een gegeven dat uniek moet zijn bestaat al",
+    "duplicateArticleNumber": "Artikel nummer bestaat al",
+    "duplicateArticleNumberMsg": "Dit artikel nummer is al in gebruik kies een ander nummer",
+    "dulicatieCertificateNumber": "Certificaat nummer bestaat al",
+    "dulicatieCertificateNumberMsg": "Certificaat nummer is al in gebruik kies een ander nummer",
+    "duplicateTicketNumber": "Ticket nummer bestaat al",
+    "duplicateTicketNumberMsg": "Ticket nummer is al ingebruik kies een ander nummer",
+    "duplicateUserEmail": "Email bestaat al",
+    "duplicateUserEmailMsg": "Email is al in gebruik kies een ander mail adres",
+    "previouslyUsedPassword": "Wachtwoord eerder gebruikt",
+    "previouslyUsedPasswordMsg": "Het ingevulde wachtwoord is al eens eerder gebruikt.",
+    "pageNotFound": "Pagina niet gevonden",
+    "pageNotFoundMsg": "Pagina niet kunnen vinden",
+    "pageNotFoundRedirect": "Over 5 seconden word u automatisch naar het startscherm gestuurd"
+  },
+  "paginator": {
+    "rowsToDisplay": "Regels tonen",
+    "rowsSelectedMsg": "{ amount } regels geselecteerd",
+    "noRowsSelected": "regels selecteren",
+    "icons": {
+      "editSelection": "Selectie bewerken",
+      "showSelection": "Selectie tonen",
+      "printSelection": "Selectie afdrukken",
+      "sendSelection": "Selectie versturen",
+      "printList": "Lijst afdrukken"
+    }
+  },
+  "property": {
+    "fieldTypes": {
+      "textField": "Tekstveld",
+      "numberField": "Nummerveld",
+      "selectionField": "Keuzeveld"
+    },
+    "dashboard": {
+      "header": "Eigenschappen",
+      "table": {
+        "name": "Naam",
+        "propertyName": "Eigenschap naam",
+        "englishName": "Engelse naam",
+        "noCustomersFound": "Geen eigenschappen gevonden",
+        "required": "Verplicht",
+        "visable": "Zichtbaar"
+      }
+    },
+    "creation": {
+      "addChoise": "keuze toevoegen",
+      "choise": "Keuze",
+      "header": "Eigenschap aanmaken",
+      "details": "Eigenschap details",
+      "customField": "Veldnaam",
+      "labels": {
+        "name": "Naam",
+        "propertyName": "Eigenschap naam",
+        "englishName": "Engelse naam",
+        "fieldType": "Veldtype",
+        "articleType": "Artikeltype",
+        "visable": "Zichtbaar",
+        "required": "Verplicht"
+      }
+    },
+    "edit": {
+      "header": "Eigenschap aanpassen"
+    }
+  },
+  "general": {
+    "searchOnName": "Zoek op naam",
+    "searchOnNumber": "Zoek op nummer"
+  },
+  "workTypes": {
+    "newlyDelivered": "Nieuw Geleverd",
+    "inspect": "Inspecteren",
+    "inspectAndTest": "Inspecteren en testen",
+    "rejected": "Afgekeurd",
+    "outOfOrder": "Buiten gebruik gesteld",
+    "reUse": "Heringebruikname"
+  },
+  "buttons": {
+    "add": "Toevoegen",
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "schedule": "Inplannen",
+    "print": "Afdrukken",
+    "editTicket": "Bon bewerken",
+    "copy": "Kopiëren",
+    "copyAddress": "Adres kopiëren",
+    "login": "Inloggen",
+    "forgotPassword": "Wachtwoord vergeten",
+    "create": "Maken",
+    "clear": "Wissen",
+    "create2": "aanmaken",
+    "save": "opslaan",
+    "delete": "verwijderen",
+    "new": "Nieuw",
+    "searchAction": "Zoeken",
+    "close": "Sluiten",
+    "outOfOrder": "Buiten gebruik",
+    "duplicate": "Dupliceren",
+    "send": "Verzenden",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "skip": "Overslaan",
+    "connect": "Koppel"
+  },
+
+  "articleTypes": {
+    "property": "Eigenschap",
+    "dashboard": {
+      "articleTypeHeader": "Artikeltype",
+      "articleTypeDetails": "Artikel type details",
+      "table": {
+        "nameHeader": "Naam",
+        "priceHeader": "Standaard Prijs(bruto)",
+        "noFoundArticleTypes": "Geen artikeltypes gevonden",
+        "noAvailableProperties": "Geen beschikbare eigenschappen gevonden"
+      }
+    },
+    "edit": {
+      "header": "Artikeltype aanpassen",
+      "articleType": "Artikeltype",
+      "articleName": "Artikel naam",
+      "linkedPropertiesHeader": "Gekoppelde eigenschappen",
+      "noPropertiesFound": "Geen gekoppelde eigenschappen gevonden",
+      "allPropertiesHeader": "Alle beschikbare eigenschappen",
+      "articleTypeDetails": "Artikel type details",
+      "noAvailableProperties": "Geen beschikbare eigenschappen gevonden"
+    },
+    "creation": {
+      "header": "Artikeltype aanmaken",
+      "formHeader": "Artikeltype",
+      "name": "Naam",
+      "price": "Prijs (€)",
+      "priceExample": "0,00"
+    }
+  },
+  "certificates": {
+    "creation": {
+      "status":  "Status",
+      "createCertificateHeader": "Certificaat aanmaken",
+      "dataSupplierHeader": "Gegevens leverancier",
+      "supplier": "Leverancier",
+      "customerDataHeader": "Gegevens klant",
+      "debtorNumber": "Debiteur nummer",
+      "customerName": "Klant naam",
+      "certificateTypeHeader": "Omschrijving",
+      "certificateType": "Type certificaat",
+      "certificateCategory": "Soort certificaat",
+      "certificateNumber": "Certificaat nummer",
+      "customerReference": "Klantreferentie",
+      "jobType": "Soort werk",
+      "description": "Omschrijving",
+      "deliveryDate": "Leverdatum",
+      "additionalText": "Extra tekst",
+      "articleSelectHeader": "Artikel selecteren",
+      "articleNumber": "Artikel nummer",
+      "articleName": "Artikel naam",
+      "articleDescription": "Artikel omschrijving",
+      "postalCodeExample": "1234AB"
+    },
+    "dashboard": {
+      "actions": {
+        "searching": {
+          "actionHeader": "Acties",
+          "search": "Zoeken",
+          "certificate": "Certificaat",
+          "debtor": "Debiteur",
+          "customer": "Klant",
+          "reference": "Referentie",
+          "description": "Omschrijving",
+          "from": "Vanaf"
+        },
+        "filtering": {
+          "filter": "Filter",
+          "allCertificates": "Alle certificaten",
+          "afterMonths": "Geldig",
+          "afterMonths2": "Verloopt over meer dan 2 maanden",
+          "duringMonths": "Binnen 2 maanden",
+          "expired": "Verlopen",
+          "rejected": "Afgekeurd",
+          "notInUse": "Vervallen"
+        }
+      },
+      "table": {
+        "certificatesHeader": "Certificaten",
+        "noCertificatesFound": "Geen certificaten gevonden",
+        "buttons": {
+          "edit": "Certificaat aanpassen",
+          "print": "Certificaat afdrukken",
+          "email": "Certificaat mailen"
+        },
+        "registrationNumber": "Certificaat",
+        "status": "Status",
+        "debtorNumber": "Debiteur klant",
+        "customerSearchName": "Klant",
+        "customerReferenceNumber": "Referentie",
+        "extraInfo": "Kenmerk",
+        "description": "Omschrijving"
+      },
+      "paginator": {
+        "icons": {
+          "markOutOfOrder": "Selectie Vervallen",
+          "updateReferenceNumber": "Referentie aanpassen"
+        }
+      },
+      "markOutOfOrder": {
+        "toast": "Er zijn {{ amount }} Status(en) aangepast"
+      },
+      "updateReferenceNumber": {
+        "title": "Referentienummer aanpassen:",
+        "saveIcon": "Referentienummer opslaan",
+        "toast": "Er zijn {{ amount }} Referentienummer(s) aangepast"
+      }
+    },
+    "management": {},
+    "searching": {},
+    "status": {
+      "Expired": "Verlopen",
+      "Disapproved": "Afgekeurd",
+      "OutofOrder": "Buiten gebruik",
+      "Valid": "Goedgekeurd",
+      "DueSoon": "Verloopt binnenkort"
+    },
+    "edit": {
+      "editCertificateHeader": "Certificaat bewerken",
+      "certificate": "Certificaat",
+      "certificateNumber": "Certificaat nummer",
+      "debtorNumber": "Debiteur nr",
+      "deliveredTo": "Geleverd aan",
+      "customerName": "Klantnaam",
+      "customerReference": "Referentie klant",
+      "description": "Omschrijving",
+      "jobType": "Soort werk",
+      "supplyDate": "Leverdatum",
+      "extraInfo": "Extra tekst",
+      "detailsHeader": "Details",
+      "properties": "Eigenschappen"
+    }
+  },
+
+  "article": {
+    "dashboard": {
+      "articleHeader": "Artikel",
+      "table": {
+        "nameHeader": "Naam",
+        "description": "Omschrijving",
+        "articleNumber": "Artikel nummer",
+        "noFoundArticles": "Geen artikelen gevonden",
+        "buttons": {
+          "edit": "Artikel aanpassen"
+        }
+      },
+      "addButton": "Aanmaken"
+    },
+    "creation": {
+      "articleHeader": "Artikel aanmaken",
+      "editHeader": "Artikel aanpassen",
+      "createHeader": "Artikel Details",
+      "articleNumber": "Artikel nummer",
+      "name": "Naam",
+      "description": "Omschrijving",
+      "articleType": "Artikeltype"
+    },
+    "edit": {
+      "articleHeader": "Artikel aanpassen"
+    }
+  },
+  "characteristics": {
+    "creation": {
+      "createCharacteristicsHeader": "Eigenschap aanmaken",
+      "detailsHeader": "Details",
+      "table": {
+        "name": "Naam",
+        "language": "Taal",
+        "fieldType": "Veldtype",
+        "value": "Waarde"
+      },
+      "form": {
+        "name": "Naam",
+        "displayName": "Weergave naam",
+        "articleType": "Artikeltype",
+        "fieldType": "Veld type",
+        "required": "verplicht"
+      }
+    }
+  },
+  "customer": {
+    "creation": {
+      "createCustomerHeader": "Klant aanmaken",
+      "customerDetails": "Details klant",
+      "customerName": "klant naam",
+      "customerSearchName": "klant zoeknaam",
+      "debtorNumber": "debiteur nr",
+      "users": "gebruikers",
+      "reminders": {
+        "remindersHeader": "Herinneringen",
+        "email": "e-mail",
+        "methodology": "Notificatiemethode",
+        "wantsNotifications": "Notificaties aan/uit",
+        "term": {
+          "label": "Maanden voor verloop",
+          "placeholder": "Aantal maanden"
+        },
+        "singleEmail": "Één e-mail met alle certificaten",
+        "individualEmails": "Een aparte e-mail per certificaat"
+      }
+    },
+    "dashboard": {
+      "icons": {
+        "create": "Klant Aanmaken",
+        "uncoupleUser": "Gebruiker ontkoppelen",
+        "editUser": "Gebruiker aanpassen"
+      },
+      "actions": {
+        "actionsHeader": "Acties",
+        "searching": "Zoeken",
+        "email": "Email",
+        "debtor": "Debiteur",
+        "searchName": "Zoeknaam",
+        "customerName": "Klantnaam",
+        "telephoneNumber": "Telefoonnummer",
+        "faxNumber": "Faxnummer"
+      },
+      "table": {
+        "customerTableHeader": "Klanten",
+        "noCustomersFound": "Geen klanten gevonden",
+        "email": "Email",
+        "debtorNumber": "Debiteur nummer",
+        "searchName": "Zoeknaam",
+        "customerName": "Klant naam",
+        "phoneNumber": "Telefoonnummer",
+        "faxNumber": "Fax nummer"
+      }
+    },
+    "edit": {
+      "connectedUsers": "Gekoppelde gebruikers",
+      "editCustomerHeader": "Klant aanpassen",
+      "customerDetails": "Details klant",
+      "customerName": "klant naam",
+      "customerSearchName": "klant zoeknaam",
+      "debtorNumber": "debiteur nr",
+      "users": "gebruikers",
+      "reminders": {
+        "remindersHeader": "Herinneringen",
+        "email": "e-mail",
+        "methodology": "Notificatiemethode",
+        "wantsNotifications": "Notificaties aan/uit",
+        "term": {
+          "label": "Maanden voor verloop",
+          "placeholder": "Aantal maanden"
+        },
+        "singleEmail": "Één e-mail met alle certificaten",
+        "individualEmails": "Een aparte e-mail per certificaat"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "streetName": "Straatnaam",
+    "houseNumber": "Huisnummer",
+    "affix": "Toevoeging",
+    "zipCode": "Postcode",
+    "city": "Plaats",
+    "country": "Land",
+    "phone": "Telefoon",
+    "fax": "Fax",
+    "address": "Adres",
+    "email": "Email",
+    "infix": "Toevoeging"
+  },
+
+  "login": {
+    "loginCertificates": "Inloggen certificaten",
+    "entryCode": "Toegangscode",
+    "password": "Wachtwoord"
+  },
+  "serverResponses": {
+    "errors": {
+      "connectionError": "Er kan geen verbinding worden gemaakt met de server",
+      "incorrectCredentials": "De inlog gegevens zijn foutief ingevuld",
+      "sessionExpired": {
+        "summary": "Uw sessie is verlopen",
+        "detail": "Log opnieuw in om verder te gaan."
+      }
+    },
+    "tryAgainLater": "Probeer het later nog een keer"
+  },
+  "tickets": {
+    "status": {
+      "New": "Nieuw",
+      "Scheduled": "Ingepland",
+      "Completed": "Afgerond"
+    },
+    "noAddressSelected": "Selecteer een adres",
+    "noAddressSelectedMsg": "Er moet een adres worden geselecteerd om verder te gaan",
+    "ticketsHeader": "Werkbonnen",
+    "noTicketsFound": "Geen werkbonnen gevonden",
+    "table": {
+      "ticketNumber": "Bon nr",
+      "customerSearchName": "Klant naam/nr",
+      "date": "Datum",
+      "description": "Omschrijving",
+      "assignedTo": "Toegewezen aan"
+    },
+    "addTicketCustomer": {
+      "createTicketHeader": "Werkbon aanmaken",
+      "selectCustomer": "Klant selecteren",
+      "noCustomersFound": "Geen klanten gevonden",
+      "addOptionalDescription": "Voeg omschrijving toe (optioneel)",
+      "table": {
+        "customerName": "Klantnaam",
+        "location": "Locatie"
+      }
+    },
+    "addTicketCertificates": {
+      "selectCertificatesHeader": "Certificaten selecteren(optioneel)",
+      "noCertificatesFound": "Geen certificaten gevonden",
+      "certificate": "Certificaat",
+      "certificateType": "Beproefd",
+      "debtor": "Debiteur klant",
+      "customerReferenceNumber": "Klant referentie nr",
+      "extraInfo": "Kenmerk",
+      "description": "Beschrijving"
+    },
+    "addTicketLocation": {
+      "locationHeader": "Locatie",
+      "inspectionLocation": "Kies de locatie waar er gekeurd wordt",
+      "ownLocation": "Eigen locatie:",
+      "customerLocation": "Locatie klant:",
+      "otherLocation": "Andere locatie:",
+      "steps": {
+        "stepHeader": "Werkbon maken",
+        "customerSelect": "Klant selecteren",
+        "location": "Locatie",
+        "selectCertificate": "Certificaten selecteren",
+        "schedule": "Inplannen"
+      }
+
+    },
+    "navigation": {
+      "createTicketHeader": "Werkbon aanmaken",
+      "selectCustomer": "Klant selecteren",
+      "location": "Locatie",
+      "selectCertificates": "Certificaten selecteren",
+      "schedule": "Inplannen"
+    },
+    "edit": {
+      "editHeader": "Werkbon bewerken",
+      "form": {
+        "ticketHeader": "Bon",
+        "ticketNumber": "Bonnummer",
+        "description": "Omschrijving",
+        "planned": "Gepland",
+        "status": "Status",
+        "customer": "Klant",
+        "certificates": "Certificaten",
+        "user": "Gebruiker",
+        "article": "Artikel"
+      }
+    }
+  },
+  "user": {
+    "roles": {
+      "Customer": "Klant",
+      "CustomerRead": "Klant alleen lezen",
+      "Mechanic": "Monteur",
+      "Admin":  "Beheerder"
+    },
+    "customerPlaceholder": "Selecteer een klant",
+    "customer": "Klant",
+    "usersHeader": "Gebruikers",
+    "editUserHeader": "Gebruiker aanpassen",
+    "addUserHeader": "Gebruiker aanmaken",
+    "blocked": "Geblokkeerd",
+    "active": "Actief",
+    "userRole": "Gebruikers rol",
+    "roleSelectorPlaceholder": "Selecteer een rol",
+    "accountBlocked": "geblokkeerd",
+    "accountActive": "Actief",
+    "accountNotActive": "Niet actief",
+    "notBlocked": "niet geblokkeerd",
+    "table": {
+      "usersList": "Lijst gebruikers",
+      "name": "Naam",
+      "infix": "Tussenvoegsel",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "noUsersFound": "Geen gebruikers gevonden",
+      "activeAccount": "Account actief",
+      "blockedAccount": "Account geblokkeerd"
+    },
+    "form": {
+      "userDetailsHeader": "Details gebruiker",
+      "name": "Naam",
+      "infix": "Tussenvoegsel",
+      "lastName": "Achternaam",
+      "email": "Email",
+      "emailExample": "gebruiker@voorbeeld.nl",
+      "password": "Wachtwoord",
+      "passwordRequirements": "Wachtwoord eisen:\n- minimaal 1 speciaal karakter (niet '[' of ']')\n- minimaal 1 nummer\n- minimaal 1 hoofdletter\n- minimaal 1 kleine letter\n- tussen de 8 en 32 karakters",
+      "confirmPassword": "Wachtwoord bevestigen",
+      "oldPassword": "Oud wachtwoord",
+      "newPassword": "Nieuw wachtwoord",
+      "newPasswordRepeat": "Herhaal wachtwoord",
+      "accountStatus": "Account status"
+    }
+  },
+  "reminders": {
+    "remindersHeader": "Herinneringen",
+    "actions": {
+      "actionsHeader": "Acties",
+      "searching": "Zoeken",
+      "from": "Vanaf",
+      "until": "Tot & met",
+      "fastChoice": "Snelkeuze",
+      "debtor": "Debiteur"
+    },
+    "table": {
+      "noCertificatesFound": "Geen certificaten gevonden",
+      "certificate": "Certificaat",
+      "status": "Status",
+      "debtorNumber": "Debiteur klant",
+      "customer": "Klant",
+      "customerReference": "Referentie",
+      "feature": "Kenmerk",
+      "description": "Omschrijving"
+    }
+  }
+}
